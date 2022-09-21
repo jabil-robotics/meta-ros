@@ -3,7 +3,7 @@
 require orocos-kdl.inc
 
 DESCRIPTION = "Kinematics and Dynamics Library (KDL), distributed by the Orocos Project."
-LICENSE = "LGPLv2.1"
+LICENSE = "LGPL-2.1-or-later"
 LIC_FILES_CHKSUM = "file://COPYING;md5=a8ffd58e6eb29a955738b8fcc9e9e8f2"
 
 S = "${WORKDIR}/git/orocos_kdl"
