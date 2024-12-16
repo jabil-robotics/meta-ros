@@ -14,7 +14,7 @@ DEPENDS:append:class-target = " chrpath-replacement-native"
 # octomap: /work/aarch64-oe-linux/octomap/1.9.0-1-r0/packages-split/octomap/usr/bin/edit_octree contains probably-redundant RPATH /usr/lib
 # octomap: /work/aarch64-oe-linux/octomap/1.9.0-1-r0/packages-split/octomap/usr/bin/eval_octree_accuracy contains probably-redundant RPATH /usr/lib [useless-rpaths]
 do_install:append() {
-    chrpath --delete ${D}${bindir}/* ${D}${libdir}/*${SOLIBS}
+    chrpath --delete ${D}${ros_bindir}/* ${D}${ros_libdir}/*${SOLIBS}
 }
 
 inherit ros_insane_dev_so
