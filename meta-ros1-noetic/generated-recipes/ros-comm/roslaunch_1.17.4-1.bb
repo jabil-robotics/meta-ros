@@ -11,7 +11,7 @@ ROS_AUTHOR = "Ken Conley"
 HOMEPAGE = "http://wiki.ros.org/roslaunch"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=21;endline=21;md5=d566ef916e9dedc494f5f793a6690ba5"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=22;endline=22;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 ROS_CN = "ros_comm"
 ROS_BPN = "roslaunch"

@@ -11,7 +11,7 @@ ROS_AUTHOR = "Morgan Quigley"
 HOMEPAGE = "http://ros.org/wiki/roscpp"
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=17;endline=17;md5=d566ef916e9dedc494f5f793a6690ba5"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=18;endline=18;md5=d566ef916e9dedc494f5f793a6690ba5"
 
 ROS_CN = "ros_comm"
 ROS_BPN = "roscpp"
